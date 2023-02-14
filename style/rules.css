@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+a:link {
+    background-color: rgb(156, 228, 228);
+}
+a:hover {
+    background-color: rgb(168, 60, 231);
+
+}
+header {
+    position: sticky;
+    top: -1px;
+}
+body {
+    background-color: rgb(93, 156, 185);
+}
+.title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.5vw;
+    background-color: rgb(7, 44, 49);
+    color: white;
+}
+h1 {
+    margin: 0 0 0 5%;
+}
+.logo {
+    width: 12vw;
+    align-items: flex-start;
+    margin-right: 4%;
+}
+nav {
+    display: flex;
+}
+.box-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 4vw;
+    background-color: rgb(7, 44, 49);
+    color: white;
+}
+.rules {
+    background-color: rgb(93, 156, 185);
+    border: 2px solid rgb(7, 44, 49);
+    text-align: center;
+}
+.img-home,.img-contact {
+    width: 30px;
+    margin: 10px;
+} 
+ul>li {
+    list-style: upper-alpha;
+}
+.minus {
+    list-style: lower-alpha;
+}
