@@ -147,3 +147,40 @@ td {
         margin: 2% 0 2% 0;
     }
 }
+@media screen and (min-width:961px) {
+    body {
+        background-color: rgb(93, 156, 185);
+    }
+    .title {
+        height: 300px;
+    }
+    h1 {
+        margin: 10%;
+    }
+    .box-menu {
+        height: 60px;
+        font-size: 25px;
+    }
+    .rules {
+        background-color: rgb(93, 156, 185);
+        border: 2px solid rgb(7, 44, 49);
+        border-bottom: none;
+        text-align: center;
+    }
+    .img-home,.img-contact {
+        width: 50px;
+        margin: 10px;
+    }
+    .table {
+        margin: 2% 0 2% 0;
+    }
+    article {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 80px;
+    }
+    h3 {
+        font-size: 50px;
+    }    
+}

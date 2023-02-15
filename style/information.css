@@ -129,3 +129,39 @@ span {
         margin: 3% 0;
     }
 }
+@media screen and (min-width:961px) {
+    body {
+        background-color: rgb(93, 156, 185);
+    }
+    .title {
+        height: 150px;
+    }
+    h1 {
+        font-size: 5vw;
+        align-items: center;
+    }
+    .logo {
+        width: 100px;
+        margin: 0 0 0 3%;
+    }
+    .box-menu {
+        height: 60px;
+        font-size: 25px;
+    }
+    .info {
+        background-color: rgb(93, 156, 185);
+        border: 2px solid rgb(7, 44, 49);
+        border-bottom: none;
+    }
+    .img-home,.img-contact {
+        width: 50px;
+        margin: 10px;
+    }
+    article {
+        font-size: 25px;
+    }
+    .table {
+        width: 50%;
+        margin: 2% 0 2% 30%;
+    }
+}
