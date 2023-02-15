@@ -2,18 +2,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+@font-face {
+    font-family: "Faster One";
+    src: url("./fonts/Faster_One/FasterOne-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
 }
 a {
-    outline: none;
     text-decoration: none;
-    color: black;
+    font-weight: bolder;
+    color: rgb(7, 44, 49);
+    transition: all 0.5s ease-out;
 }
-a:link {
-    background-color: rgb(156, 228, 228);
-}
-a:hover {
-    background-color: rgb(168, 60, 231);
-
+a:hover, a:focus {
+    background-color: rgb(93, 156, 185);
+    color: rgb(7, 44, 49);
 }
 header {
     position: sticky;
@@ -23,21 +28,21 @@ body {
     background-color: rgb(93, 156, 185);
 }
 .title {
-    height: 50px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 3.5vw;
+    font-size: 4vw;
     background-color: rgb(7, 44, 49);
-    color: white;
 }
 h1 {
-    margin: 0 0 0 5%;
+    margin: 0 10% 0 5%;
+    font-family: "Faster One";
+    color: rgb(93, 156, 185);
 }
 .logo {
-    width: 12vw;
-    align-items: flex-start;
-    margin-right: 4%;
+    width: 15vw;
+    margin: 0 0 0 3%;
 }
 nav {
     display: flex;
@@ -55,15 +60,90 @@ nav {
 .rules {
     background-color: rgb(93, 156, 185);
     border: 2px solid rgb(7, 44, 49);
+    border-bottom: none;
     text-align: center;
 }
 .img-home,.img-contact {
     width: 30px;
     margin: 10px;
-} 
+}
+article {
+    margin: 2% 5%;
+    padding: 1vw;
+    text-align: justify;
+}
+h2 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 6vw;
+    padding: 2% 0;
+}
+h3 {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: normal;
+    padding: 0 0 2% 0;
+}
+h4, h5 {
+    padding: 1% 0;
+}
+ol>li {
+    margin: 0 0 0 4%;
+    padding: 1% 0;
+}
+ul>ol {
+    margin: 0 0 0 12%;
+}
 ul>li {
+    margin: 0 0 0 10%;
+    padding: 1% 0;
     list-style: upper-alpha;
 }
 .minus {
     list-style: lower-alpha;
+}
+.table {
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2% 0 2% 2%;
+}
+th {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(7, 44, 49);
+    color: rgb(255, 255, 255);
+    padding: 2% 0;
+}
+td {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1% 0;
+}
+@media screen and (min-width:550px) and (max-width:960px) {
+    body {
+        background-color: rgb(93, 156, 185);
+    }
+    .title {
+        height: 180px;
+    }
+    h1 {
+        margin: 10%;
+    }
+    .box-menu {
+        height: 80px;
+    }
+    .rules {
+        background-color: rgb(93, 156, 185);
+        border: 4px solid rgb(7, 44, 49);
+        border-bottom: none;
+        text-align: center;
+    }
+    .img-home,.img-contact {
+        width: 50px;
+        margin: 10px;
+    }
+    .table {
+        margin: 2% 0 2% 0;
+    }
 }
